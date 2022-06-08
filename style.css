@@ -31,7 +31,9 @@ span {
     margin-top: 1rem;
 } 
 .header-titulo {
-    margin: 0 10%;
+    margin: 0 5%;
+    display: block;
+    width: 100%;
 }
 .header-nav-index {
     color:#fff;
@@ -40,30 +42,31 @@ span {
 }
 .header-nav-index:hover {
     color: #ccc;
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     transition: 0.3s;
 }
 .header-list {
     display: flex;
-    margin: 0 10rem;
+    margin: 0 5%;
     list-style: none;
     gap: 5rem;
     font-size: 1.5rem;
-    
 }
+
 .login {
     text-decoration: none;
     color: #fff;
+    padding: 0.5rem;
 }
 .sign {
     border: 2px solid #fff;
     border-radius: 20px;
-    padding: 0.5rem;
 }
 .login:hover {
-    color:#ccc;
-    font-size: 2rem;
-    transition: 0.3s;
+    color:#000;
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 20px;
 }
 
 .img-nav {
@@ -110,12 +113,12 @@ span {
 }
 .clases-infoh3 {
     font-size: 4rem;
-    padding: 3rem 0;
+    padding: 2rem 0;
 
 }
 .clases-infoul {
     font-size: 2rem;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .clases-img {
     display: grid;
@@ -211,6 +214,10 @@ span {
     font-size: 2rem;
     justify-content: space-around;
 }
+.enlaces-flex li {
+    width: 100%;
+    text-align: center;
+}
 .enlaces-css {
     text-decoration: none;
     color:#fff;
@@ -233,13 +240,23 @@ span {
     }
     .header-titulo {
         margin: 0.5rem;
+        padding-bottom: 1rem;
     }
     .header-list {
         justify-content: center;
+        
+    }
+    .header-list li {
+        display: block;
+        width: 100%;
     }
     .clases-img {
         display: block;
     }
+    .clases-img img {
+        opacity:1;
+    }
+
     .login:hover {
         font-size: 1.5rem;
     }
@@ -264,12 +281,16 @@ span {
     .section-titulo {
         font-size: 3rem;
     }
+    .nav-img {
+        padding-top: 2rem;
+    }
     .nav-items {
         display: block;
         text-align: center;
     }
     .nav-items li {
         padding-bottom: 1rem;
+        
     }
     .nav-items a:hover {
         color: #ccc;
