@@ -182,6 +182,7 @@ span {
     text-align: end;
     padding-right: 0.5rem;
     margin-top: auto;
+    margin-bottom: auto;
 }
 .campo-input {
     flex: 1;
@@ -189,6 +190,9 @@ span {
     border-radius: 5px;
     width: 100%;
     font-size: 1.2rem;
+}
+.input-height {
+    height: 30px;
 }
 .input-submit {
     width: 40rem;
